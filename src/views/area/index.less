@@ -1,0 +1,58 @@
+.area{
+  width: 100%;
+  height: 100vh;
+  .list{
+    width: 100%;
+    height: 92vh;
+    overflow-y: scroll;
+    .area-item{
+      width: 90%;
+      height: 60px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: nowrap;
+      border-bottom: 1px solid rgba(0,0,0,.2);
+      .img-box{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 5px 10px 5px 0;
+        img{
+          border-radius: 50%;
+          display: block;
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .info{
+        margin: 12px 0 0 0;
+        .area-title{
+          margin-bottom: 5px;
+        }
+        .info-box{
+          font-size: 12px;
+          .nickname{
+            margin-right: 10px;
+          }
+          .level{
+            color: rgba(177,66,26,1);
+          }
+        }
+      }
+      .radio{
+        width: 22px;
+        height: 22px;
+        margin: 19px 0 0 130px;
+      }
+      .active{
+        background: url("../../assets/img/bg/gouxuan.svg") no-repeat;
+        width: 22px;
+        height: 22px;
+        margin: 19px 0 0 130px;
+        border-radius: 5px;
+        background-size: 100% 100%;
+      }
+    }
+  }
+
+}

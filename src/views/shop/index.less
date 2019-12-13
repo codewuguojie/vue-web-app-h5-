@@ -1,0 +1,83 @@
+.shop{
+  width: 100%;
+  height: 93vh;
+  overflow-y: scroll;
+  .swiper{
+    width: 94%;
+    margin: 10px auto 0;
+    height: 180px;
+    img{
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .nav{
+    width: 94%;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    .navItem{
+      margin: 0 auto;
+      line-height: 25px;
+    }
+    .active{
+      color: #11beac;
+      border-bottom: 1px solid #11beac;
+    }
+  }
+  .list{
+    width: 94%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    .list-item{
+      width: 48%;
+      margin: 10px auto;
+      height: 180px;
+      position: relative;
+      .img{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        img{
+          display: block;
+          width: 100%;
+        }
+      }
+      .name{
+        width: 100%;
+        position: absolute;
+        bottom: 30px;
+        left: 0;
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+      }
+      .info{
+        width: 80%;
+        margin: 0 10%;
+        position: absolute;
+        bottom: 5px;
+        display: flex;
+        flex-wrap: nowrap;
+        color: gold;
+        .money{
+          display: flex;
+          flex-wrap: nowrap;
+          margin: 0 auto;
+          font-size: 14px;
+          .icon{
+            margin-right: 5px;
+            color: gold;
+          }
+        }
+        .prop{
+          .icon{
+            color: #1989fa;
+          }
+        }
+      }
+    }
+  }
+}
